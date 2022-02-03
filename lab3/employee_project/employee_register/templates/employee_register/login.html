@@ -1,0 +1,28 @@
+<div style="text-align: center;">
+<form method="post">
+    {%csrf_token%}
+    
+    <div>
+    user name <input type="text" name="username"/>
+    </div>
+    <br>
+    <div>
+    password <input type="password" name="password" required placeholder="enter password">
+    </div>
+    <br>
+    <div></div>
+    <button type="submit" value="login">login</button>
+</div>
+</form>
+<div style="color:red ; text-align: center;">
+{{errormsg}}
+</div>
+
+</div>
+
+
+
+
+
+
+

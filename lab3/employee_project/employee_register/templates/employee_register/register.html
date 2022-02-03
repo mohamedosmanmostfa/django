@@ -1,0 +1,15 @@
+<div style="text-align: center;">
+<form method="post">
+    {%csrf_token%}
+    <div>
+    user name <input type="text" name="username"/>
+    
+</div>
+<br>
+<div>
+    password <input type="password" name="password" required placeholder="enter password">
+</div>
+    <br>
+    <button type="submit" value="register">submit</button>
+</form>
+</div>
